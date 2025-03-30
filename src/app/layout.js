@@ -23,10 +23,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <headder className="bg-gray-800 flex items-center justify-between md:px-20 p-4">
-          <h1 className="text-2xl font-black">Blog's</h1>
-          <Navigate />
-        </headder>
+        <Navigate />
+
         {children}
         <footer className="flex justify-between items-center px-6 py-3 bg-gray-800 text-white text-sm w-full fixed bottom-0">
           <span>© 2025 Pankaj Bamniya | YourBlog</span>
